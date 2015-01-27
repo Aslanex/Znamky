@@ -1,0 +1,172 @@
+5.2 (21-1-15)
+-------------
+*oprava nepřesného počítání průměru, pokud se nalezly nerozpoznatelné známky (ty se nyní nezapočítávají) a při desetinném průměru
+*oprava zobrazení podrobností známek u anonymního zobrazení (zatím tu není k dispozici Když dostanu)
+
+5.1 (13-1-15)
+-------------
++vylepšení Když dostanu (lepší design, políčka nyní chtějí čísla, lepší čtení hodnoty známky)
+
+5.0 (12-1-15)
+-------------
++KDYŽ DOSTANU (odhadovač známky, dostupný po kliknuí na plus v detailu známek předmětu), bude se to ještě vylepšovat
+-vypuštěno nepoužívané úsporné zobrazení známek, všem se nyní zobrazuje to normální (vertikální)
+
+4.9 (15-11-14)
+-------------
+-zrušen nepoužívaný chat na hlavní stránce
+
+4.8 (1-10-14)
+-------------
+-bakaláři se nepokouší zobrazit váhu, pokud není poprvé zobrazena (funkce dělala problémy)
+
+4.7 (1-9-14)
+-------------
++pokud nejsou při aktualizaci nalezeny žádné předměty se známkami, předměty účtu se promažou
+*aktualizace enginu kvůli změně v bakalářích
+
+4.6 (24-8-14)
+-------------
+oprava ukládání zdroje po anonymním zobrazení (zdroj se neukládal)
+
+4.5 (19-6-14)
+-------------
+oprava kontroly nefunkčních zdrojů tak, aby se nefunkční přeskočily a kontrolovaly se další
+
+4.4 (17-6-14)
+-------------
+drobné opravy manuální aktualizace, při neúspěšné aktualizaci se zobrazí chybové hlášení
+
+4.3 (11-6-14)
+-------------
+trvalé přihlášení integrováno do Známek, nemělo by být potřeba klikat na přihlásit
+
+4.2 (13-5-14)
+-------------
+nyní je každou půlhodinu kontrolováno, zda již nefunkční zdroje fungují (mělo by se tak předejít potřebné manuální aktualizaci při výpadku bakalářů)
+
+4.1 (27-4-14)
+-------------
+počet pokusů o spojení s bakaláři zvýšen tak, aby to neotravovalo
+
+4.0 (20-4-14)
+-------------
+na domovské stránce je nyní chat pro jednoduchou komunikaci s vývojářem (geniální nápad ©Aslanex)
+
+3.8 (11-4-14)
+-------------
+úprava enginu, nyní se po neúspěšné synchronizaci zdroj dále nesynchronizuje, ale čeká na manuální aktualizaci (jeden nefunkční zdroj tak nezasekne všechny ostatní)
+
+3.7 (22-3-14)
+-------------
+na hlavní stránce v tlačítku zdroje vedle klíče se nyní nachází tlačítko pro manuální aktualizaci známek, pokud jsou 3 hodiny a víc neaktualizované tak se to navíc červeně zobrazí
+
+15-3-14
+-------------
+trvalé přihlášení funguje i na mobilech (nejde o aktualizaci Známek, ale jednotného přihlášení Všeho, atd)
+
+3.6 (28-2-14)
+-------------
+[fix] aktualizace enginu kvůli dalšímu novému nesmyslnému zabezpečení v bakalářích
+aktualizace FAQ
+
+3.5 (25-2-14)
+-------------
+vylepšen parser adresy bakalářů
+
+3.4 (8-2-14)
+-------------
+nové faviconky
+
+3.3 (8-2-14)
+-------------
+pokud předmět nemá žádné známky, v podrobnosti předmětu se tato informace zobrazí (dočasné řešení, prázdné předměty by se neměly zobrazovat vůbec)
+
+3.2 (7-2-14)
+-------------
+pokud je při synchronizaci u předmětu v databázi více známek než ve zdroji, přebytečné se nyní odstraní
+
+3.1 (7-2-14)
+-------------
+server přestává zvládat automatickou synchronizaci - oprava enginu tak, aby nejprve synchronizoval naposledy nesynchronizované
+
+3.0 (7-2-14)
+-------------
+přepracovaná domovská stránka pro přihlášené do stylu jako je ta pro nepřihlášené, přidání účtu nebo anonymní zobrazení je nyní také tak jednoduché
+
+2.2 (3-2-14)
+-------------
+[fix] aktualizace enginu kvůli aktualizaci bakalářů v pololetí
+
+2.1 (8-1-14)
+-------------
+[fix] zobrazení známek podporuje více roků
+
+2.0 (23-12-13)
+-------------
+kompletně předělaný systém anonymního prohlížení, nová úvodní strana pro nepřihlášené a bez zdrojů, vše co nejjednodušší, nové logo
+další drobné změny
+
+1.7.1 (18-11-13)
+-------------
+[fix] zpět na výber školy ze seznamu při přidávání účtu
+
+1.7 (16-11-13)
+-------------
+[feat] na stránce zobrazení známek se po najetí do pravého horního rohu údaje o uživateli změní v menu
+[feat] kromě známek je nyní možno zjistit i výchovná opatření aktuálního pololetí, odkaz v menu při prohlížení známek
+[fix] odkaz na znovupřidání účtu při neúspěšném pokusu funkční
+
+1.6 (9-11-13)
+-------------
+[feat] jednoduchý tooltip návod pro nové uživatele
+
+1.5 (8-11-13)
+-------------
+[feat] na hlavní straně se nyní zobrazují hlavní tlačítka zdrojů (dříve účtů) nad dvěma funkčními tlačítky
+[feat] zobrazení známek by mělo být přehlednější (nyní strukturované)
+[feat] výběr školy při přidávání zdroje (dříve účtu) je ještě jednodušší
+
+1.4.5 (17-10-13)
+-------------
+[fix] odkaz zpět ve 3. fázi přidání účtu funguje
+
+1.4.4 (15-10-13)
+-------------
+[fix] známky se skutečně zapisují i při uložení nového účtu
+
+1.4.3 (30-9-13)
+-------------
+[fix] při průběžné kontrole známek se ukládá i nový průměr předmětu
+
+1.4.2 (8-9-13)
+-------------
+[fix] průběžná kontrola známek funguje
+[fix] známky se opět zapisují i při přidání účtu
+
+1.4.1 (7-9-13)
+-------------
+[fix] průběžná kontrola známek, i pokud není přítomen checkbox na váhu
+
+1.4 (6-9-13)
+-------------
+- při anonymním prohlížení je také oznámeno, pokud není žádná známka
+
+1.3 (2-9-13)
+-------------
+- ve správě účtu je nyní možnost promazat známky, popsáno v FAQ
+
+1.2 (1-9-13)
+-------------
+- pokud není žádná známka, je to oznámeno na výpisu známek
+
+1.1 (27-8-13)
+-------------
+- nyní je možno si místo zadání adresy bakalářů vybrat ze seznamu škol
+- podrobnější kontrola adresy bakalářů, pokud končí na "login.aspx"
+- upraveny pokyny na zjištění adresy bakalářů v FAQ
+
+1.0 (10-8-13)
+-------------
+- založen changelog
+- na každé stránce je nyní vpravo dole svislý oddíl About, kde je odkaz na FAQ, changelog a číslo verze Známek

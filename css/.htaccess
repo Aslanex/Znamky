@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} -f [NC]
+RewriteRule .* - [L]
+RewriteRule ^([\w-]+)$ /css/$1.css [L,QSA]

@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} -f [NC]
+RewriteRule .* - [L]
+RewriteRule ^([\w-]+)$ /img/$1.png [L,QSA]

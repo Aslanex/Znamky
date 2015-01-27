@@ -1,0 +1,82 @@
+.lpb {
+  text-align: center;
+  width: 320px;
+  border: 1px solid #999;
+  padding: 1px;
+  height: 12px;
+  margin-right: auto;
+  margin-left: auto;
+  }
+#lpt {
+  height: 100%;
+  background-color: #bbb;
+  background-repeat: repeat-x;
+  background-position: 0 0;
+  background-size: 24px 12px;
+  background-image: -webkit-linear-gradient(315deg,transparent,transparent 33%,#999967 33%,#999967 66%,transparent 66%,transparent);
+  background-image:         linear-gradient(315deg,transparent,transparent 33%,#999967 33%,#999967 66%,transparent 66%,transparent);
+  -webkit-animation: pb 0.4s linear 0 infinite;
+          animation: pb 0.4s linear 0 infinite;
+  }
+@-webkit-keyframes pb {
+  0% { background-position:0 0; }
+  100% { background-position:-24px 0; }
+  }
+@keyframes pb {
+  0% { background-position:0 0; }
+  100% { background-position:-24px 0; }
+  }
+
+.obsahStrankyDiv {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  position: relative;
+  width: 525px;
+  }
+.welcomeNadpis2 {
+  text-align: center;
+  font-family: "Liberation Sans",Verdana,Arial;
+  font-size: 22px;
+  position: absolute;
+  top: 72px;
+  left: 253px;
+  text-transform: uppercase;
+  }
+.welcomeNadpis3 {
+  text-align: left;
+  font-family: "Liberation Sans",Verdana,Arial;
+  font-size: 18px;
+  position: absolute;
+  top: 129px;
+  left: 264px;
+  color: #999967;
+  line-height: 1.2;
+  text-transform: uppercase;
+  }
+.rightStranka {
+  margin: 20px 0 0 20px;
+  font-size: 22px;
+  }
+.rightStranka select, .rightStranka input, .rightStranka button {
+  font-size: 19px;
+  width: 350px;
+  margin: 2px;
+  }
+.formComment {
+  font-size: 12px;
+  margin: 0 0 0 4px;
+  }
+.formPreloader {
+  margin: 4px 0;
+  font-size: 14px;
+  white-space: nowrap;
+  color: red;
+  }
+form {
+  display: inline;
+  margin: 0; padding: 0;
+  white-space: nowrap;
+  color: #666;
+  font-size: 16px;
+  }

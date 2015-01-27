@@ -1,0 +1,301 @@
+div#obsahStranky {
+  overflow-x: auto;
+  }
+div#ucty {
+  margin: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+  }
+div#pridejUcty {
+  margin: auto;
+  width: 544px;
+  }
+div#ucty section, div#pridejUcty section{
+  width: 250px;
+  height: 77px;
+  background-color: #ddd;
+  border: 1px solid #aaa;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 0px 0px 3px 0px #777;
+  transition: all 50ms;
+  overflow: hidden;
+  float: left;
+  }
+div#ucty section:hover, div#pridejUcty section:hover {
+  background-color: #eee;
+  }
+div#ucty section header, div#pridejUcty section header {
+  cursor: pointer;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: color 50ms;
+  color: black;
+  }
+div#ucty section header:hover, div#pridejUcty section header:hover {
+  color: darkgreen;
+  }
+div#ucty div.jmeno, div#pridejUcty div.jmeno {
+  font-weight: bold;
+  font-size: 20px;
+  }
+div#ucty div.skola, div#pridejUcty div.skola {
+  font-size: 11px;
+  color: #555;
+  }
+div#ucty section figure, div#pridejUcty section figure {
+  color: #444;
+  font-size: 16px;
+  margin: 5px 0 2px 0;
+  cursor: default;
+  }
+div#ucty section footer, div#pridejUcty section footer {
+  font-size: 12px;
+  }
+div#pridejUcty section header {
+  color: #555;
+  line-height: 39px;
+  }
+div#pridejUcty section header:hover {
+  color: darkgreen;
+  }
+div#pridejUcty section div#nick {
+  font-size: 14px;
+  color: #555;
+  }
+
+.obsahStrankyDiv {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  position: relative;
+  width: 525px;
+  }
+.leftStranka {
+  width: 525px;
+  white-space: nowrap;
+  }
+.welcomeNadpis2 {
+  text-align: center;
+  font-family: "Liberation Sans",Verdana,Arial;
+  font-size: 22px;
+  position: absolute;
+  top: 72px;
+  left: 253px;
+  text-transform: uppercase;
+  }
+.welcomeNadpis3 {
+  text-align: left;
+  font-family: "Liberation Sans",Verdana,Arial;
+  font-size: 18px;
+  position: absolute;
+  top: 129px;
+  left: 264px;
+  color: #999967;
+  line-height: 1.2;
+  text-transform: uppercase;
+  }
+.rightStranka {
+  margin: 20px 0 0 20px;
+  font-size: 22px;
+  }
+.welcomeForm select, .welcomeForm input, .welcomeForm button {
+  font-size: 19px;
+  width: 350px;
+  margin: 2px;
+  }
+.formComment {
+  font-size: 12px;
+  margin: 0 0 0 4px;
+  }
+.formPreloader {
+  margin: 4px 0;
+  font-size: 14px;
+  white-space: nowrap;
+  color: red;
+  }
+form {
+  display: inline;
+  margin: 0; padding: 0;
+  }
+div.welcomeNadpis4 {
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px 0 0 10px;
+  width: 270px;
+  overflow-x: hidden;
+  white-space: normal;
+  }
+span.nickNadpis {
+  color: #999967;
+  font-size: 22px;
+  white-space: nowrap;
+  }
+div.vyberZdroje section {
+  width: 500px;
+  background-color: #ddd;
+  border: 1px solid #aaa;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 0px 0px 3px 0px #777;
+  transition: all 50ms;
+  overflow: hidden;
+  cursor: pointer;
+  }
+div.vyberZdroje section:hover {
+  background-color: #eee;
+  }
+div.vyberZdroje section:hover header {
+  color: darkgreen;
+  }
+div.vyberZdroje header {
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: color 50ms;
+  color: black;
+  display: inline-block;
+  float: left;
+  }
+div.vyberZdroje header a {
+  display: inline-block;
+  height: 28px;
+  width: 20px;
+  margin-left: 3px;
+  float: left;
+  }
+a.spravujZdroj {
+  background: url("/img/spravovat") no-repeat;
+  background-position: 0 6px;
+  }
+a.spravujZdroj:hover {
+  background-position: -20px 6px;
+  }
+a.spravujZdroj:active {
+  background-position: -40px 6px;
+  }
+a.aktualizujZdroj {
+  background: url("/img/aktualizovat") no-repeat;
+  background-position: 0 6px;
+  }
+a.aktualizujZdroj:hover {
+  background-position: -20px 6px;
+  }
+a.aktualizujZdroj:active {
+  background-position: -40px 6px;
+  }
+a.aktualizujZdroj[pozor] {
+  background-position: -40px 6px;
+  }
+div.aktualizujZdroj {
+  font-size: 12px;
+  vertical-align: text-bottom;
+  height: 28px;
+  padding: 13px 0 0 4px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  display: inline-block;
+  color: #aaa;
+  }
+div.aktualizujZdroj[pozor] {
+  color: red;
+  }
+div.vyberZdroje div.jmeno {
+  font-weight: bold;
+  font-size: 20px;
+  }
+div.vyberZdroje div.skola {
+  font-size: 11px;
+  color: #555;
+  }
+div.vyberZdroje div.data {
+  color: #444;
+  font-size: 24px;
+  white-space: nowrap;
+  opacity: 0.5;
+  }
+div.vyberZdroje a.pridat {
+  margin: 6px 0 0 10px;
+  display: inline-block;
+  font-size: 18px;
+  }
+div#section2 {
+  display: none;
+  }
+
+.loginForm input, .loginForm button {
+  font-size: 19px;
+  margin: 2px;
+  }
+
+
+header[aside] {
+  color: #999967;
+  font-size: 22px;
+  transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  cursor: default;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  height: 30px;
+  width: 500px;
+  left: -234px;
+  -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+header[aside]:hover ~ aside, aside:hover, aside:focus {
+  left: 0;
+  }
+aside {
+  width: 300px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  height: 500px;
+  margin: auto 4px;
+  padding: 4px;
+  background-color: rgba(240,240,240,0.9);
+  left: -320px;
+  -webkit-transition: left 0.2s;
+    transition: left 0.2s;
+  overflow: hidden;
+  }
+aside form {
+  display: inline;
+  }
+aside > p {
+  font-size: 14px;
+  color: #444;
+  margin: 10px 0 0 0;
+  }
+aside input {
+  width: 230px;
+  margin: 10px 0 10px 25px;
+  text-align: center;
+  }
+aside article {
+  font-size: 14px;
+  text-align: left;
+  }
+aside article > header {
+  display: inline;
+  color: #999967;
+  cursor: default;
+  -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+aside article > header[dev] {
+  color: rgb(0,0,238);
+  }
+aside article > header[self] {
+  color: red;
+  }
+aside article > p {
+  display: inline;
+  }

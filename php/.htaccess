@@ -1,0 +1,19 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_USER_AGENT} Wget [OR]
+RewriteCond %{HTTP_USER_AGENT} CherryPickerSE [OR]
+RewriteCond %{HTTP_USER_AGENT} CherryPickerElite [OR]
+RewriteCond %{HTTP_USER_AGENT} EmailCollector [OR]
+RewriteCond %{HTTP_USER_AGENT} EmailSiphon [OR]
+RewriteCond %{HTTP_USER_AGENT} EmailWolf [OR]
+RewriteCond %{HTTP_USER_AGENT} ExtractorPro
+RewriteRule ^.*$ http://www1344870616.blogpipe.com/ [L]
+
+RewriteCond %{REQUEST_FILENAME} -f [NC,OR]
+RewriteCond %{REQUEST_FILENAME} -d [NC]
+RewriteRule .* - [L]
+RewriteRule ^([\w-]+)$ /php/$1.php [L,QSA]
+
+<Files funkce.php>
+ deny from all
+</Files>
